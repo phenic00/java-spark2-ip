@@ -1,25 +1,23 @@
 package ke.co.safaricom.model;
 
-public class Squad {
+public class Weakness {
     private int id;
     private String name;
-    private String cause;
-    private int max_size;
+    private int score;
     private boolean deleted;
-
-    public Squad() {
-        this.deleted = false;
-    }
 
     @Override
     public String toString() {
-        return "Squad{" +
+        return "weakness{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", cause='" + cause + '\'' +
-                ", max_size=" + max_size +
+                ", score=" + score +
                 ", deleted=" + deleted +
                 '}';
+    }
+
+    public Weakness() {
+        this.deleted = false;
     }
 
     public int getId() {
@@ -38,20 +36,12 @@ public class Squad {
         this.name = name;
     }
 
-    public String getCause() {
-        return cause;
+    public int getScore() {
+        return score;
     }
 
-    public void setCause(String cause) {
-        this.cause = cause;
-    }
-
-    public int getMax_size() {
-        return max_size;
-    }
-
-    public void setMax_size(int max_size) {
-        this.max_size = max_size;
+    public void setScore(int score) {
+        this.score = score;
     }
 
     public boolean isDeleted() {
@@ -62,4 +52,6 @@ public class Squad {
         this.deleted = deleted;
     }
 }
+
+
 
