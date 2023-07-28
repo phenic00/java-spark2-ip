@@ -22,7 +22,7 @@ There are no known bugs on this projects.
 Languages used include Java
 ## Support and contact details
 
-If you need any assistance on any issues or have questions, ideas or concerns. Kindly contact me through email: dopiyo@gmail.com to make a contribution to the code or for any assistance on the app/project.
+If you need any assistance on any issues or have questions, ideas or concerns. Kindly contact me through email: otworip@gmail.com to make a contribution to the code or for any assistance on the app/project.
 
 ### License
 
